@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?família=Lato:ital,wght@0,100;0,300;0,900;1,300;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+   width: 100;
+    height: 100vh;
+    font-size: 62.5%;
+    background-color: #898989;
+}
+
+.container{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .211);
+}
+.container .form-logo{
+    margin-left: 50px;
+    border-radius: 5px ;
+}
+.form {
+    height: 384px;
+    width: 50%;
+    background-color:#1c1c1c1c;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.8rem;  
+}
+.form .form-header{ 
+    margin-bottom: 20PX;
+    display: flex;
+    justify-content: space-between;
+}
+.imagemlogo {
+    max-width: 55%;
+    max-height: 55%;
+}
+
+.login-button button{
+    border: none;
+}
+
+.login-button .botao_entrar{
+    background-color: rgb(111, 111, 236);
+    padding: 0.8rem 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button .botao_entrar:hover{
+    background-color: #898989;
+    transition: all 0.3s;
+}
+.login-button .botao_entrar{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffff;
+ 
+}
+.input-group .input-box label{
+    margin-right: 20px;
+}
+.form {
+    margin-right: 80px;
+}
+
+.form .input-group .input-box{
+
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 0;
+}
+.input-box{
+    display: flex;
+    margin-bottom: 0.7rem;
+}
+.input-box input{
+    margin: 0.1rem 0;
+    padding: 0.3rem 1.0rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 7px #000000;
+}
+
+.gender-title h6{
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+input{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.input-group .input-box label{
+    color: #A9A9A9;
+}
+.group .group-input label{
+    color: #A9A9A9;
+}
+
+.input-box input:hover{
+    background-color: #c0c0c0;
+}
+.input-box input:focus-visible{
+    outline: 1px solid #898989;
+}
+.input-box input::placeholder{
+    color: #dcdcdc;
+}
+.agender-inputs{
+    display: flex;
+    align-items: center;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+.agender-inputs label{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.agender-inputs input{
+    margin-right: 0.35rem;
+}
+.agender-inputs input{
+    flex-direction: row;
+}
+.continu-button button{
+    width: 100%;
+    margin-top: 2.0rem;
+    border: none;
+    background-color: rgb(111, 111, 236);
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+.agender-inputs .continu-button button{
+    display: flex;
+    align-items: center;
+}
+
+.continu-button .buton-continuar{
+    color: #ffff;
+    font-size: 1.8rem; 
+}
+.continu-button .buton-continuar:hover{
+    padding: 0.62rem;
+    color: aqua;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .form-logo {
+        display: none;
+    }
+    .form .form-header .botao_entrar{
+        display: none;
+    }
+    .form .form-header h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form .input-group{
+        font-size: 1.5rem;
+        min-width: 325px;
+    }
+    .form .input-group id{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
